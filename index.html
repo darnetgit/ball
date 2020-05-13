@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Dar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id=gameZone class="gameSection">
+          <div id=ball></div>
+        </div>
+        <div id=controller class="gameSection">
+          <div class="buttons"></div>
+          <button class="center arrows" onclick="moveUp()">↑</button>
+            </br>
+            <button class="arrows left" onclick="moveLeft()">←</button>
+            <button class="arrows right" onclick="moveRight()">→</button>
+            </br>
+          </br>
+            <button class="center arrows" onclick="moveDown()">↓</button>
+          </br>
+            <button class="center reset" onclick="reset()">Reset</button>
+            </br>
+          </div>
+        </div>
+    </main>
+  <script src="main.js" type="text/javascript"></script>
+</body>
+</html>
